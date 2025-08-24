@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Layouts & Responsive Design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header with Flexbox Navigation -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <i class="fas fa-layout"></i>
+                    <span>LayoutMaster</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Modern CSS Layout Techniques</h1>
+            <p>Learn how to create responsive web designs using Flexbox and CSS Grid</p>
+            <a href="#" class="btn">Get Started</a>
+        </div>
+    </section>
+
+    <!-- Main Content with Grid Layout -->
+    <div class="container main-grid">
+        <!-- Left Sidebar -->
+        <aside class="sidebar sidebar-left">
+            <div class="sidebar-widget">
+                <h3>Categories</h3>
+                <ul>
+                    <li><a href="#">Flexbox</a></li>
+                    <li><a href="#">CSS Grid</a></li>
+                    <li><a href="#">Responsive Design</a></li>
+                    <li><a href="#">Media Queries</a></li>
+                    <li><a href="#">Layout Techniques</a></li>
+                </ul>
+            </div>
+            <div class="sidebar-widget">
+                <h3>Upcoming Events</h3>
+                <p>CSS Conference - June 15, 2023</p>
+                <p>Web Layout Workshop - July 22, 2023</p>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <h2 class="section-title">Featured Articles</h2>
+            
+            <!-- Flexbox Card Layout -->
+            <div class="cards">
+                <article class="card">
+                    <div class="card-img">
+                        <i class="fas fa-th"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>CSS Grid Layout</h3>
+                        <p>Learn how to create two-dimensional layouts with CSS Grid, perfect for overall page structure.</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </article>
+                
+                <article class="card">
+                    <div class="card-img">
+                        <i class="fas fa-align-justify"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>Flexbox Basics</h3>
+                        <p>Discover how to create flexible one-dimensional layouts using CSS Flexbox for components.</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </article>
+                
+                <article class="card">
+                    <div class="card-img">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>Responsive Design</h3>
+                        <p>Understand how to make your layouts adapt to different screen sizes using media queries.</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </article>
+            </div>
+            
+            <h2 class="section-title">About Responsive Layouts</h2>
+            <p>Responsive web design is an approach to web design that makes web pages render well on a variety of devices and window or screen sizes. Recent work also considers the viewer proximity as part of the viewing context as an extension for RWD.</p>
+            <p>CSS Grid Layout and Flexbox are powerful layout systems available in CSS. While Flexbox is designed for one-dimensional layouts (in a row or a column), Grid is designed for two-dimensional layouts (rows and columns).</p>
+        </main>
+
+        <!-- Right Sidebar -->
+        <aside class="sidebar sidebar-right">
+            <div class="sidebar-widget">
+                <h3>Latest News</h3>
+                <p>New CSS features announced for 2023</p>
+                <p>Browser support for Grid Layout reaches 95%</p>
+            </div>
+            <div class="sidebar-widget">
+                <h3>Subscribe</h3>
+                <p>Stay updated with our newsletter for the latest layout techniques and tutorials.</p>
+                <a href="#" class="btn">Subscribe</a>
+            </div>
+        </aside>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About Us</h3>
+                    <p>We're dedicated to teaching modern CSS layout techniques to help you create beautiful, responsive websites.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Tutorials</a></li>
+                        <li><a href="#">Resources</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect With Us</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 LayoutMaster. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Font Awesome for icons -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+</body>
+</html>
